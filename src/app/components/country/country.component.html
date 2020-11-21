@@ -1,0 +1,29 @@
+<div *ngIf="country" [routerLink]="'/'+country.name">
+
+  <div class="country-card-info">
+
+    <h1><strong>{{ country.name }}</strong></h1>
+    <p>
+      <strong>
+        Region:
+      </strong>
+      {{ country.region }}
+    </p>
+
+    <p>
+      <strong>
+        SubRegion:
+      </strong>
+      {{ country.subregion }}
+    </p>
+    <p>
+      <strong>
+        CapitalCity:
+      </strong>
+      {{ country.capital }}
+    </p>
+
+
+
+  </div>
+</div>
